@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Oswald&display=swap');
+
+body {
+ 
+    font-family: 'Cabin', sans-serif;
+font-family: 'Oswald', sans-serif;
+background: #feffff;
+    background: -moz-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: -o-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    padding: 10px;
+}
+.container {
+  max-width: 750px;
+}
+img {
+  border-radius: 18px;
+}
+.name {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: underline;
+}
